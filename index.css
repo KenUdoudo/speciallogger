@@ -21,3 +21,9 @@ body {
 .one:hover {
   transform: rotateZ(-20deg);
 }
+.two {
+  position: absolute;
+}
+.two:hover {
+  transform: rotateZ(-10deg);
+}
