@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  min-height: 100vh;
+  background: rgb(61, 61, 192);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pad {
+  border-radius: 12px;
+  width: 300px;
+  height: 500px;
+  background: rgb(94, 94, 252);
+  transition: all 1s;
+}
+.one:hover {
+  transform: rotateZ(-20deg);
+}
+.two {
+  position: absolute;
+}
+.two:hover {
+  transform: rotateZ(-10deg);
+}
