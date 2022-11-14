@@ -16,6 +16,7 @@ body {
   width: 300px;
   height: 500px;
   background: rgb(94, 94, 252);
+  transition: all 1s;
 }
 .one:hover {
   transform: rotateZ(-20deg);
