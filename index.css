@@ -27,3 +27,7 @@ body {
 .two:hover {
   transform: rotateZ(-10deg);
 }
+.input{
+  width: 250px;
+  height: 400px;
+}
